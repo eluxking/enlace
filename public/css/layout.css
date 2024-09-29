@@ -1,0 +1,24 @@
+body {
+    font-family: 'Helvetica Neue', Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+section {
+    margin: 0 auto;
+    padding: 2rem 0;
+    width: 70%;
+    display: block;
+}
+
+header, footer {
+    text-align: center;
+    padding: 1rem;
+}
+
+@media screen and (max-width: 768px) {
+    section {
+        width: 95%;
+    }
+}

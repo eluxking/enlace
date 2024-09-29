@@ -1,0 +1,11 @@
+/* Animaciones para cuando los elementos aparecen */
+.section {
+    opacity: 0;
+    transform: translateY(30px);
+    transition: all 0.5s ease-out;
+}
+
+.section.visible {
+    opacity: 1;
+    transform: translateY(0);
+}
