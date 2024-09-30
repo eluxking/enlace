@@ -2,7 +2,32 @@
 nav{
     display: flex;
     justify-content: space-around;
+    align-items: center;
+    padding: 10px;
 }
 a{
     text-decoration: none;
+}
+.header-content{
+    background: url(../img/main.jpg) #00ffff;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+.header-content .inicio{
+    min-height: 30vb;
+    color: aliceblue;
+    background: #000000aa;
+    display: grid;
+    align-content: center;
+}
+.inicio h2{
+    font-size: 40px;
+}
+@media screen and (max-width: 600px) {
+    .inicio h2{
+        font-size: 28px;
+    }
+    .inicio p{
+        font-size: 14px;
+    }
 }

@@ -3,6 +3,39 @@
 @import url('colors.css');
 @import url('animations.css');
 @import url('header.css');
+/* PTSans Regular */
+@font-face {
+    font-family: 'PTSans';
+    src: url('../font/PT_Sans/PTSans-Regular.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+/* PTSans Italic */
+@font-face {
+    font-family: 'PTSans';
+    src: url('../font/PT_Sans/PTSans-Italic.ttf') format('truetype');
+    font-weight: normal;
+    font-style: italic;
+}
+
+/* PTSans Bold */
+@font-face {
+    font-family: 'PTSans';
+    src: url('../font/PT_Sans/PTSans-Bold.ttf') format('truetype');
+    font-weight: bold;
+    font-style: normal;
+}
+
+/* PTSans Bold Italic */
+@font-face {
+    font-family: 'PTSans';
+    src: url('../font/PT_Sans/PTSans-BoldItalic.ttf') format('truetype');
+    font-weight: bold;
+    font-style: italic;
+}
+
+
 
 
 *{
@@ -10,3 +43,11 @@
     padding: 0;
     box-sizing: border-box;
 }
+body{
+    font-family: 'PTSans', sans-serif;;
+}
+
+
+
+
+
