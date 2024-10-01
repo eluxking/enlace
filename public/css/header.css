@@ -4,9 +4,13 @@ nav{
     justify-content: space-around;
     align-items: center;
     padding: 10px;
+    font-size: 14px;
+    color: #ffffff;
 }
 a{
     text-decoration: none;
+    font-weight: 700;
+    color: #ffffff;
 }
 .header-content{
     background: url(../img/main.jpg) #00ffff;
@@ -14,9 +18,9 @@ a{
     background-position: center;
 }
 .header-content .inicio{
-    min-height: 30vb;
+    min-height: 90vb;
     color: aliceblue;
-    background: #000000aa;
+    background: #000000cc;
     display: grid;
     align-content: center;
 }
@@ -24,10 +28,15 @@ a{
     font-size: 40px;
 }
 @media screen and (max-width: 600px) {
+    
+    nav{
+        justify-content: space-between;
+    }
     .inicio h2{
-        font-size: 28px;
+        font-size: 24px;
     }
     .inicio p{
-        font-size: 14px;
+        font-size: 12px;
+        padding: 10px;
     }
 }
