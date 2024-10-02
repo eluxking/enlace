@@ -1,0 +1,29 @@
+.formateo {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    width: 100%;
+    min-height: 50vb; 
+    }
+.a{
+    width: 100%;
+    font-style: oblique;
+    font-size: 50px;
+}
+.formateo li{
+    width: 45%;
+    border: 2px #fff solid;
+    padding: 10px;
+    border-radius: 6px;
+}
+
+@media screen and (max-width: 768px) {
+    .a{
+        font-size: 28px;
+    }
+    .formateo li{
+        font-size: 18px;
+    }
+    
+}

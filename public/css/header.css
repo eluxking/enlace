@@ -6,6 +6,11 @@ nav{
     padding: 10px;
     font-size: 14px;
     color: #ffffff;
+    background: rgb(0,248,255);
+background: -moz-linear-gradient(0deg, rgba(0,248,255,1) 0%, rgba(15,177,255,1) 50%, rgba(0,248,255,1) 100%);
+background: -webkit-linear-gradient(0deg, rgba(0,248,255,1) 0%, rgba(15,177,255,1) 50%, rgba(0,248,255,1) 100%);
+background: linear-gradient(0deg, rgba(0,248,255,1) 0%, rgba(15,177,255,1) 50%, rgba(0,248,255,1) 100%);
+filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#00f8ff",endColorstr="#00f8ff",GradientType=1);
 }
 a{
     text-decoration: none;

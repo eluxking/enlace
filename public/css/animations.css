@@ -1,7 +1,7 @@
 /* Animaciones para cuando los elementos aparecen */
 .section {
     opacity: 0;
-    transform: translateY(30px);
+    transform: translateY(50px);
     transition: all 0.5s ease-out;
 }
 

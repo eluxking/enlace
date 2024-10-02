@@ -3,6 +3,8 @@
 @import url('colors.css');
 @import url('animations.css');
 @import url('header.css');
+@import url('formateo.css');
+
 /* PTSans Regular */
 @font-face {
     font-family: 'PTSans';
@@ -45,7 +47,7 @@
 }
 body{
     font-family: 'PTSans', sans-serif;
-    background: #007fff;
+    background: #cdfcff;
 }
 
 
